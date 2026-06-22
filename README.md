@@ -162,17 +162,18 @@ GitHub Pages:
 
 https://ocvSHANTO.github.io/PasswordForge/
 
-*(Enable GitHub Pages after publishing the repository.)*
-
 ---
 
 # 📸 Screenshot
 
-> Add a screenshot here after uploading one.
+> Add a screenshot h
 
 ```
-assets/screenshot.png
-```
+![Landing Page](landing-page.jpg)
+
+![Password Generator](password-generator.jpg)
+
+![Live Demo](live-demo.jpg)
 
 ---
 
