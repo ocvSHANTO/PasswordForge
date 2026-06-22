@@ -116,12 +116,11 @@ https://ocvSHANTO.github.io/PasswordForge/
 
 ## 📸 Screenshots
 
-![Landing Page](assets/landing-page.jpg)
+![Landing Page](landing-page.jpg)
 
-![Password Generator](assets/password-generator.jpg)
+![Password Generator](password-generator.jpg)
 
-![Live Demo](assets/live-demo.jpg)
-
+![Live Demo](live-demo.jpg)
 ---
 
 ## 🛠 Built With
