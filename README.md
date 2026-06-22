@@ -2,82 +2,60 @@
 
 > **Remember memories, not passwords.**
 
-**Password Forge** is a modern, privacy-first, deterministic password generator designed to help you create powerful and unique passwords without ever needing to remember or store them.
-
-Instead of relying on password managers, cloud synchronization, or random password generation, Password Forge transforms **memories you already know** into secure passwords using modern cryptography. Everything happens **locally inside your browser**—your data never leaves your device.
-
-No accounts.  
-No servers.  
-No cloud storage.  
-No analytics.  
-No tracking.  
-Just you, your memories, and strong passwords.
+Password Forge is a modern, privacy-first, deterministic password generator that transforms your personal memories into strong, unique passwords. Everything runs entirely inside your browser using the Web Crypto API — no servers, no accounts, no tracking, and no cloud storage.
 
 ---
 
-# 🌟 Why Password Forge?
+## 🌟 Why Password Forge?
 
-Most password generators create random passwords that you eventually have to save somewhere.
+Most password generators create random passwords that you eventually need to save somewhere.
 
-Password Forge takes a different approach.
+Password Forge works differently.
 
-You create a private "recipe" using memories only you know—such as:
+Instead of storing passwords, you remember a few personal memories that only you know. Combined with your master phrase and website name, Password Forge always generates the exact same secure password whenever you need it.
 
-- Childhood nickname
-- Favorite movie
-- Pet's name
-- Important date
-- Secret phrase
+Your password is never stored.
 
-Combine that with a website name and your master phrase, and Password Forge deterministically creates the exact same strong password every time.
-
-You never need to store the password.
-
-You only need to remember your memories.
+Your data never leaves your device.
 
 ---
 
-# ✨ Features
+## ✨ Features
 
-## 🔒 Privacy First
+### 🔒 Privacy First
 
 - 100% Client-side
-- No internet connection required after loading
-- No server communication
+- No accounts
+- No servers
+- No cloud storage
 - No analytics
-- No trackers
+- No tracking
 - No cookies
-- No account required
 
----
+### 🧠 Memory-Based Password Generation
 
-## 🧠 Memory-Based Password Generation
+Create deterministic passwords using:
 
-Transform personal memories into deterministic passwords.
+- Childhood nickname
+- Favorite movie or anime
+- Pet's name
+- Important date
+- Secret memory
+- Master phrase
 
-The same memories + same website + same settings = the same password every time.
+The same inputs always generate the same password.
 
----
+### 🌐 Unique Password For Every Website
 
-## 🌐 Unique Password For Every Website
+Each website receives a completely different password—even when using the same memories.
 
-Even if you always use the same memories, every website receives an entirely different password.
+### ⚡ Secure by Design
 
-This prevents password reuse across multiple services.
-
----
-
-## ⚡ Powered by SHA-256
-
-Uses the browser's built-in **Web Crypto API** (`crypto.subtle`) with SHA-256 to securely derive passwords.
+Powered by the browser's native **Web Crypto API (SHA-256)**.
 
 No third-party cryptography libraries.
 
----
-
-## 🎛️ Advanced Password Controls
-
-Customize passwords exactly the way you want.
+### 🎛 Password Controls
 
 - Password length (8–64)
 - Uppercase letters
@@ -86,98 +64,67 @@ Customize passwords exactly the way you want.
 - Symbols
 - Exclude confusing characters
 - Prevent consecutive duplicate characters
-- Guaranteed inclusion of enabled character types
+- Guaranteed enabled character types
 
----
+### 🔄 Password Variants
 
-## 🔄 Password Variants
+Generate alternative deterministic passwords without changing your memory recipe.
 
-Need another password for the same website?
+### 📋 One-Click Copy
 
-Generate alternative deterministic variants while keeping your original memory recipe.
+Copy passwords instantly.
 
----
+### 🗂 Session History
 
-## ✅ Master Phrase Confirmation
-
-Enter your master phrase twice to reduce typing mistakes before generating.
-
----
-
-## 📋 One-Click Copy
-
-Instantly copy generated passwords to your clipboard.
-
----
-
-## 🗂 Session History
-
-View recently generated passwords during the current browser session.
-
-History is:
-
-- Masked by default
+- Stored only in memory
+- Cleared automatically after refresh
 - Never written to disk
-- Automatically erased after reload
 
----
+### 🚨 Panic Wipe
 
-## 🚨 Panic Wipe
-
-Need to clear everything instantly?
-
-One click removes:
+Instantly clears:
 
 - Memory recipe
 - Master phrase
 - Generated password
 - Session history
 
----
-
-## 🎨 Beautiful Themes
-
-Choose your favorite appearance.
+### 🎨 Multiple Themes
 
 - 🌙 Dark
 - ☀️ Light
 - ⚫ Midnight (AMOLED)
 - 🌌 Aurora
 
----
+### 📱 Mobile Friendly
 
-## 📱 Mobile Friendly
-
-Designed primarily for smartphones while remaining fully compatible with desktop browsers.
+Optimized for smartphones while remaining fully compatible with desktop browsers.
 
 ---
 
-# 🌐 Live Demo
+## 🌐 Live Demo
 
-Official Website:
+**Official Website**
 
 https://ocvpasswordforge.netlify.app/
 
-GitHub Pages:
+**GitHub Pages**
 
 https://ocvSHANTO.github.io/PasswordForge/
 
 ---
 
-# 📸 Screenshot
+## 📸 Screenshots
 
-> Add a screenshot here after uploading one.
+![Landing Page](assets/landing-page.jpg)
 
-```
-![Landing Page](landing-page.jpg)
+![Password Generator](assets/password-generator.jpg)
 
-![Password Generator](password-generator.jpg)
-
-![Live Demo](live-demo.jpg)
+![Live Demo](assets/live-demo.jpg)
 
 ---
 
-# 🛠 Built With
+## 🛠 Built With
 
 - HTML5
 - CSS3
@@ -193,21 +140,23 @@ No build tools.
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```
+```text
 PasswordForge/
-
+├── assets/
+│   ├── landing-page.jpg
+│   ├── password-generator.jpg
+│   └── live-demo.jpg
 ├── index.html
 ├── PasswordForge_Final_Release-3.html
 ├── README.md
-├── LICENSE
-└── assets/
+└── LICENSE
 ```
 
 ---
 
-# 🚀 Getting Started
+## 🚀 Getting Started
 
 Clone the repository.
 
@@ -221,189 +170,168 @@ Open the project.
 cd PasswordForge
 ```
 
-Simply open
+Then simply open:
 
-```
+```text
 index.html
 ```
 
-inside any modern browser.
+No installation required.
 
-No installation.
+No server required.
 
 No dependencies.
 
-No server.
-
-No build process.
-
 ---
 
-# 💡 How It Works
+## 💡 How It Works
 
-1. Choose a few personal memories.
-2. Enter the website or service name.
-3. Configure your password settings.
+1. Choose your personal memories.
+2. Enter the website name.
+3. Configure password settings.
 4. Enter your master phrase.
-5. Password Forge securely combines all inputs.
-6. SHA-256 generates a deterministic password.
+5. Password Forge combines all inputs.
+6. SHA-256 securely generates your password.
 7. The same inputs always reproduce the same password.
 
-Nothing is stored.
+Everything happens locally.
 
 Nothing is uploaded.
 
-Nothing leaves your browser.
+Nothing is stored online.
 
 ---
 
-# 🔒 Privacy
+## 🔒 Privacy
 
-Password Forge follows one simple principle:
+Your privacy comes first.
 
-**Your data belongs to you.**
+Password Forge never:
 
-Therefore:
+- Sends data to a server
+- Stores passwords
+- Uses analytics
+- Tracks users
+- Requires an account
 
-- No cloud storage
-- No accounts
-- No login
-- No tracking
-- No telemetry
-- No analytics
-- No advertisements
-- No hidden requests
-
-Every cryptographic operation runs locally using the browser's native Web Crypto API.
+Every cryptographic operation runs locally using your browser.
 
 ---
 
-# 🛡 Security Notice
+## 🛡 Security Notice
 
-Password Forge is designed to generate deterministic passwords securely.
+Password Forge generates deterministic passwords securely.
 
-However, the overall security of your passwords depends on:
+For maximum security:
 
-- Choosing memories that are difficult for others to guess.
-- Keeping your master phrase secret.
-- Avoiding obvious personal information.
-
-The application never stores or backs up your password.
+- Choose memories that are difficult to guess.
+- Keep your master phrase secret.
+- Avoid obvious personal information.
 
 If you forget your memories or master phrase, your password cannot be recovered.
 
 ---
 
-# 🌍 Browser Support
+## 🌍 Browser Support
 
-✅ Google Chrome
-
-✅ Microsoft Edge
-
-✅ Mozilla Firefox
-
-✅ Brave
-
-✅ Opera
-
-✅ Safari
+- ✅ Google Chrome
+- ✅ Microsoft Edge
+- ✅ Firefox
+- ✅ Brave
+- ✅ Opera
+- ✅ Safari
 
 ---
 
-# 🚧 Roadmap
+## 🚧 Roadmap
 
-## Version 2
+### Completed
 
 - ✅ Landing Page
 - ✅ Password Generator
 - ✅ Multiple Themes
 - ✅ Session History
-- ✅ Panic Wipe
 - ✅ Password Variants
+- ✅ Panic Wipe
 
-### Planned Features
+### Planned
 
 - ⏳ Progressive Web App (PWA)
 - ⏳ Recipe Import / Export
-- ⏳ Password Strength Analysis
+- ⏳ Password Strength Meter
 - ⏳ Multiple Language Support
-- ⏳ Custom Theme Creator
+- ⏳ Custom Themes
 - ⏳ Accessibility Improvements
 
 ---
 
-# 🤝 Contributing
+## 🤝 Contributing
 
-Contributions are welcome.
+Contributions are always welcome.
 
 If you'd like to improve Password Forge:
 
 1. Fork the repository.
-2. Create a feature branch.
+2. Create a new branch.
 3. Make your changes.
 4. Submit a Pull Request.
 
-Bug reports, feature ideas, and improvements are always appreciated.
+Bug reports and feature suggestions are always appreciated.
 
 ---
 
-# ⚠️ Disclaimer
+## ⚠️ Disclaimer
 
-Password Forge is an independent open-source project provided **"as is"** without warranty of any kind.
-
-The developer is not responsible for data loss caused by forgotten memories, incorrect inputs, or misuse of the software.
+Password Forge is provided **"as is"** without warranty of any kind.
 
 Always verify generated passwords before using them for important accounts.
 
----
-
-# 📜 License
-
-This project is licensed under the **MIT License**.
-
-See the LICENSE file for complete details.
+The developer is not responsible for lost passwords caused by forgotten memories or master phrases.
 
 ---
 
-# 👤 Author
+## 📜 License
+
+Licensed under the **MIT License**.
+
+See the LICENSE file for details.
+
+---
+
+## 👤 Author
 
 **Shanto**
 
 🇧🇩 Bangladesh
 
-GitHub
+**GitHub**
 
 https://github.com/ocvSHANTO
 
-Instagram
+**Instagram**
 
 https://www.instagram.com/ocb__shanto
 
-X (Twitter)
+**X (Twitter)**
 
 https://x.com/Junayed_SHANTO_
 
-YouTube
+**YouTube**
 
 https://youtube.com/@vortexinbloom
 
 ---
 
-# ⭐ Support
+## ⭐ Support
 
-If you found Password Forge useful,
+If you find Password Forge useful, please consider:
 
-please consider:
+- ⭐ Starring this repository
+- 🐛 Reporting bugs
+- 💡 Suggesting new features
+- 🤝 Contributing to the project
 
-⭐ Starring the repository
-
-🐛 Reporting bugs
-
-💡 Suggesting new features
-
-🤝 Contributing to the project
-
-Every contribution helps make Password Forge even better.
+Every contribution helps improve Password Forge for everyone.
 
 ---
 
