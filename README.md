@@ -166,7 +166,7 @@ https://ocvSHANTO.github.io/PasswordForge/
 
 # 📸 Screenshot
 
-> Add a screenshot h
+> Add a screenshot here after uploading one.
 
 ```
 ![Landing Page](landing-page.jpg)
