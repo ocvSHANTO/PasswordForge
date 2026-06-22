@@ -332,6 +332,12 @@ If you find Password Forge useful, please consider:
 
 Every contribution helps improve Password Forge for everyone.
 
+If you'd like to support the continued development of this project, you can do so here:
+
+[![Support Password Forge](support-button.png)](https://www.supportkori.com/ocvshanto)
+
+*Supporting is completely optional. Password Forge will always remain free and open source. ❤️*
+
 ---
 
 ## ❤️ Remember memories, not passwords.
